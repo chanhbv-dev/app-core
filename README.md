@@ -1,1 +1,17 @@
-# app-core
+# AppCore - Free extension for your app
+- Combine Framework with reactive programming
+- MVVM with Combine
+- ViewControllerBehavior protocol
+- Other components
+
+## Combine Framework with reactive programming
+Incorporating Combine with UIKit in reactive programming can significantly enhance the responsiveness and performance of iOS applications. Combine, Apple's framework for handling asynchronous events through declarative Swift code, integrates seamlessly with UIKit to provide a reactive interface. By utilizing publishers and subscribers, developers can efficiently manage UI events and data streams. For instance, a `UITextField` can publish text changes that a subscriber can listen to and respond with validations or updates in real-time. Moreover, Combine's operators allow for complex event processing, such as debouncing user input or chaining multiple asynchronous calls, which is particularly useful in form validation or network requests. The integration of Combine into UIKit-based projects follows the MVVM architectural pattern, promoting a clean separation of concerns and making the codebase more maintainable and testable. To get started, developers can explore resources like tutorials on functional reactive programming with Combine, or delve into structured approaches for combining Combine with UIKit in MVVM. For a hands-on example, GitHub repositories provide practical demonstrations of using Combine with UIKit.
+
+## MVVM with Combine
+In the context of the MVVM (Model-View-ViewModel) pattern, the Combine framework enhances the way data is handled and UI updates are managed in a reactive programming style. Specifically, Combine can be used to create data-driven and responsive applications where the ViewModel acts as the intermediary between the UI and the underlying data. It leverages publishers and subscribers to bind data to the UI and handle events. For instance, when using Combine with SwiftUI, you can employ the `@Published` property wrapper to expose dynamic data from the ViewModel that, when changed, will automatically update the View. This integration of Combine into the MVVM pattern streamlines state management and simplifies the flow of data within an app, making it more maintainable and scalable. The use of Combine's operators for tasks such as merging, filtering, and transforming data streams further contributes to the robustness of the MVVM architecture in handling complex asynchronous operations.
+
+## ViewControllerBehavior protocol
+In the realm of iOS development, creating a flexible behavior component for a ViewController is a pivotal step towards crafting a dynamic and responsive user interface. Such a component is designed to manage a view and its interactions within an app, handling tasks from displaying content to responding to user inputs. By encapsulating common functionalities and leveraging protocols, developers can build ViewControllers that are both reusable and adaptable to various needs and contexts. This approach not only saves time but also ensures a clean and organized codebase. For instance, a custom list display might include properties for data sources, delegate methods, and customizable UI elements, allowing for easy adjustments in different scenarios without rewriting code. Structuring your ViewController to separate UI setup from business logic further enhances maintainability, enabling easy modifications of UI elements or data presentation without affecting the underlying logic.
+
+## Other components
+Comming soon
