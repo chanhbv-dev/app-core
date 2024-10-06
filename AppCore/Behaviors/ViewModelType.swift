@@ -9,9 +9,7 @@ import Combine
 import Foundation
 
 public protocol ViewModelType: AnyObject {
-//    associatedtype State
     associatedtype Input
-    // associatedtype Output = AnyPublisher<State, Never>
     associatedtype Output
 
     var isLoading: CurrentValueSubject<Bool, Never> { get set }
