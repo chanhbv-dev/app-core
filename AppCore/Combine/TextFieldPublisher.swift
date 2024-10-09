@@ -9,7 +9,7 @@ import Combine
 import Foundation
 import UIKit
 
-extension UITextField {
+public extension UITextField {
     func publisher(for events: UIControl.Event) -> AnyPublisher<String, Never> {
         return UIControlPublisher(control: self, controlEvents: events)
             .map { $0 as? UITextField }
@@ -25,7 +25,7 @@ extension UITextField {
     }
 }
 
-extension TextFieldGroup {
+public extension TextFieldGroup {
     var contentPublisher: AnyPublisher<String, Never> {
         UIControlPublisher(control: self, controlEvents: .textFieldContentDidChange)
             .map { $0 as? TextFieldGroup }

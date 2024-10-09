@@ -40,7 +40,7 @@ open class FilledButton: UIButton {
         }
     }
 
-    init(title: String) {
+    public init(title: String) {
         super.init(frame: .zero)
         self.title = title
         setupViews()

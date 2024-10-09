@@ -48,7 +48,7 @@ open class TextFieldGroup: UIControl {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func makeFirstResponder() {
+    public func makeFirstResponder() {
         if textField.canBecomeFirstResponder {
             textField.becomeFirstResponder()
         }

@@ -7,7 +7,7 @@
 import UIKit
 
 public enum AppColor {
-    public static let primary: UIColor = .init(rgb: 0x006FFD)
+    public static let primary: UIColor = .init(rgb: 0x004CFF)
     public static let secondary: UIColor = .init(rgb: 0x6FBAFF)
     public static let disabled: UIColor = .init(rgb: 0xB4DBFF)
 

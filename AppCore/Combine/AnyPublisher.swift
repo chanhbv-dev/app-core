@@ -36,4 +36,9 @@ public extension AnyPublisher {
         )
         .eraseToAnyPublisher()
     }
+
+    func receiveOnMain() -> AnyPublisher<Output, Failure> {
+        receive(on: DispatchQueue.main)
+            .eraseToAnyPublisher()
+    }
 }

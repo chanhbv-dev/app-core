@@ -13,7 +13,7 @@ open class CheckBox: UIControl {
     var isChecked: Bool = false
     var title: String?
 
-    init(isChecked: Bool, title: String? = nil) {
+    public init(isChecked: Bool, title: String? = nil) {
         self.isChecked = isChecked
         self.title = title
         super.init(frame: .zero)

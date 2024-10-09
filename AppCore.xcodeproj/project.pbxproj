@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D752EFDE2CB6525500393B5E /* ButtonPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752EFDD2CB6524F00393B5E /* ButtonPublisher.swift */; };
+		D752EFE42CB668F300393B5E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752EFE32CB668F300393B5E /* AppCoordinator.swift */; };
 		D7912E592CAC0FB6002F31E5 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7912E352CAC0FB6002F31E5 /* AlertViewController.swift */; };
 		D7912E5A2CAC0FB6002F31E5 /* ViewControllerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7912E372CAC0FB6002F31E5 /* ViewControllerBehavior.swift */; };
 		D7912E5B2CAC0FB6002F31E5 /* ViewControllerDealingKeyboardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7912E382CAC0FB6002F31E5 /* ViewControllerDealingKeyboardBehavior.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D752EFDD2CB6524F00393B5E /* ButtonPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPublisher.swift; sourceTree = "<group>"; };
+		D752EFE32CB668F300393B5E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D7912DEE2CAC0F8E002F31E5 /* AppCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7912E352CAC0FB6002F31E5 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		D7912E372CAC0FB6002F31E5 /* ViewControllerBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBehavior.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 		D7912E472CAC0FB6002F31E5 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				D752EFDD2CB6524F00393B5E /* ButtonPublisher.swift */,
 				D7912E422CAC0FB6002F31E5 /* AnyPublisher.swift */,
 				D7912E432CAC0FB6002F31E5 /* CheckBoxPublisher.swift */,
 				D7912E442CAC0FB6002F31E5 /* TextFieldPublisher.swift */,
@@ -154,6 +159,7 @@
 			children = (
 				D7912E482CAC0FB6002F31E5 /* AppColor.swift */,
 				D7912E492CAC0FB6002F31E5 /* AppConstants.swift */,
+				D752EFE32CB668F300393B5E /* AppCoordinator.swift */,
 				D7912E4A2CAC0FB6002F31E5 /* AppFont.swift */,
 				D7912E4B2CAC0FB6002F31E5 /* CheckBox.swift */,
 				D7912E4C2CAC0FB6002F31E5 /* ControlEvents.swift */,
@@ -306,6 +312,7 @@
 				D7ED25422CACE08600984E2A /* LoadingView.swift in Sources */,
 				D7912E612CAC0FB6002F31E5 /* RowItemView.swift in Sources */,
 				D7912E622CAC0FB6002F31E5 /* AnyPublisher.swift in Sources */,
+				D752EFE42CB668F300393B5E /* AppCoordinator.swift in Sources */,
 				D7912E632CAC0FB6002F31E5 /* CheckBoxPublisher.swift in Sources */,
 				D7912E642CAC0FB6002F31E5 /* TextFieldPublisher.swift in Sources */,
 				D7912E652CAC0FB6002F31E5 /* UIControlPublisher.swift in Sources */,
@@ -320,6 +327,7 @@
 				D7912E6E2CAC0FB6002F31E5 /* UIColor.swift in Sources */,
 				D7912E6F2CAC0FB6002F31E5 /* UIResponder.swift in Sources */,
 				D7912E702CAC0FB6002F31E5 /* TextField.swift in Sources */,
+				D752EFDE2CB6525500393B5E /* ButtonPublisher.swift in Sources */,
 				D7912E712CAC0FB6002F31E5 /* TextFieldGroup.swift in Sources */,
 				D7912E722CAC0FB6002F31E5 /* AppCore.docc in Sources */,
 			);

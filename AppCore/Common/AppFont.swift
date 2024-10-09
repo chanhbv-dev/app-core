@@ -12,6 +12,7 @@ public enum AppFont {
     public static let xLargeTitle: UIFont = .systemFont(ofSize: .init(52), weight: .semibold)
     public static let largeTitle: UIFont = .systemFont(ofSize: .init(36), weight: .semibold)
     public static let title: UIFont = .systemFont(ofSize: .init(18), weight: .semibold)
+    public static let xtitle: UIFont = .systemFont(ofSize: .init(18), weight: .regular)
     public static let subtitle: UIFont = .systemFont(ofSize: .init(12), weight: .regular)
     public static let bolder: UIFont = .systemFont(ofSize: .init(16), weight: .bold)
     public static let xbody: UIFont = .systemFont(ofSize: .init(16), weight: .regular)
