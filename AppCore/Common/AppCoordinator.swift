@@ -13,6 +13,7 @@ public protocol Coordinator {
     associatedtype Dependence
     associatedtype Destination
 
+    var dependence: Dependence { get set }
     var navController: UINavigationController { get set }
 
     func start()
