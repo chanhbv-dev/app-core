@@ -37,6 +37,7 @@
 		D7912E722CAC0FB6002F31E5 /* AppCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = D7912E572CAC0FB6002F31E5 /* AppCore.docc */; };
 		D7912E732CAC0FB6002F31E5 /* AppCore.h in Headers */ = {isa = PBXBuildFile; fileRef = D7912E562CAC0FB6002F31E5 /* AppCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7912E762CAC0FDC002F31E5 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D7912E752CAC0FDC002F31E5 /* Lottie */; };
+		D7A9993E2CC26F35003821D1 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9993D2CC26F35003821D1 /* Array.swift */; };
 		D7ED25422CACE08600984E2A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED25412CACE08600984E2A /* LoadingView.swift */; };
 		D7ED254B2CAD03EA00984E2A /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ED254A2CAD03EA00984E2A /* KeychainItem.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		D7912E542CAC0FB6002F31E5 /* TextFieldGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldGroup.swift; sourceTree = "<group>"; };
 		D7912E562CAC0FB6002F31E5 /* AppCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppCore.h; sourceTree = "<group>"; };
 		D7912E572CAC0FB6002F31E5 /* AppCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AppCore.docc; sourceTree = "<group>"; };
+		D7A9993D2CC26F35003821D1 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		D7ED25412CACE08600984E2A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		D7ED254A2CAD03EA00984E2A /* KeychainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +177,7 @@
 				D7912E4F2CAC0FB6002F31E5 /* String.swift */,
 				D7912E502CAC0FB6002F31E5 /* UIColor.swift */,
 				D7912E512CAC0FB6002F31E5 /* UIResponder.swift */,
+				D7A9993D2CC26F35003821D1 /* Array.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				D752EFDE2CB6525500393B5E /* ButtonPublisher.swift in Sources */,
 				D7912E712CAC0FB6002F31E5 /* TextFieldGroup.swift in Sources */,
 				D7912E722CAC0FB6002F31E5 /* AppCore.docc in Sources */,
+				D7A9993E2CC26F35003821D1 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
